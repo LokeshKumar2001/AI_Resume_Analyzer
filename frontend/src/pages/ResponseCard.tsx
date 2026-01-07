@@ -26,7 +26,7 @@ const ResponseCard = ({ response }: ResponseCardProps) => {
             {response.feedback}
           </p>
           <div className="mt-2 p-2 bg-gray-50 rounded border">
-            <pre className="whitespace-pre-wrap break-words text-sm">
+            <pre className="whitespace-pre-wrap wrap-break-word text-sm">
               {response.data}
             </pre>
           </div>

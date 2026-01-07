@@ -1,10 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Review from "./pages/Review";
 
 function App() {
   return (
-    <>
-      <Review />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Review />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
